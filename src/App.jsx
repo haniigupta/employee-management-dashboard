@@ -1,9 +1,11 @@
 import React from 'react'
 import Login from './components/Auth/Login'
+import EmployeeDash from './components/Dashboard/EmployeeDash'
 const App =()=>{
   return (
     <>
-    <Login />
+    {/* <Login /> */}
+    <EmployeeDash />
     </>
   )
 }
